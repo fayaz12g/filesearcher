@@ -1,5 +1,5 @@
 ![File Searcher Logo](icon.ico)
-## [File Searcher (click to download)](/build/File_Searcher.exe)
+## [File Searcher (click to download)](https://github.com/fayaz12g/filesearcher/raw/main/build/File_Searcher.exe)
 # What is File Searcher?
 File Searcher is a tool created by Fayaz one night, over the span of two hours, after he conveyed his dismay over Windows' default File Explorer search option. In specific, Fayaz wanted to search for .sblarc files in a folder to see if there are other RootPanes in BOTW for Switch he could scale. Fayaz joked that he would write his own script that would do a better job to search, and then he proceded to do so. Chris mocked him, saying that there are many tools available that already do that, but Fayaz instead spent the next two hours making a tool that he thought would be light weight, and perfect for his needs. 
 
