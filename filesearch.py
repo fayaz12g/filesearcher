@@ -5,11 +5,16 @@ import customtkinter as ctk
 from tkinter import filedialog
 
 # Initialize the main window
-ctk.set_appearance_mode("System")  # Set the theme of the app
-ctk.set_default_color_theme("blue")  # Set the color theme
+ctk.set_appearance_mode("system")  # Set the theme of the app
+ctk.set_default_color_theme("dark-blue")  # Set the color theme
 root = ctk.CTk()  # Create the main window
 root.title('File Searcher')
 root.geometry("530x830")
+
+script_path = os.path.abspath(__file__)
+script_directory = os.path.dirname(script_path)
+icon_path = os.path.join(script_directory, 'icon.ico')
+root.iconbitmap(icon_path)
 
 # Function to find and display files
 def find_files_by_extension(directory, file_extension, textbox):
